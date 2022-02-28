@@ -1,6 +1,8 @@
-name: 手動觸發的自動化 (MacOS)
+name: 自動化
 
 on:
+  schedule:
+    - cron: "0 5,17 * * *"
   workflow_dispatch:
 
 jobs:
